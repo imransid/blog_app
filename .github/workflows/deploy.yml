@@ -1,24 +1,35 @@
-
-name: Deploy React App to Vercel
+name: Deploy to Vercel
 
 on:
   push:
+    branches:
+      - main  # Change this to your deployment branch if needed
+  pull_request:
     branches:
       - main
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
+          node-version: 18  
+          cache: 'npm'
+
       - name: Install dependencies
         run: npm install
-      - name: Build the app
-        run: npm run build
+
+      - name: Build project
+        run: npm run build  
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
       - name: Deploy to Vercel
         run: vercel --prod --token ${{ secrets.VERCEL_TOKEN }}
