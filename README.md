@@ -36,6 +36,13 @@ This project is a **Themed Blog Listing Application** built with **React, TypeSc
 - Hosted on **Vercel**
 - **GitHub Actions** for automated deployment on push
 
+### 6\. Performance & Optimization
+
+- **Skeleton UI for Better UX** 🏗
+- **Efficient Post Lookup using useMemo** 🔍
+- **Optimized useEffect Dependency** ✅
+- **Better Code Readability & Maintainability** 📌
+
 ## Installation & Setup
 
 ### Prerequisites
@@ -45,7 +52,7 @@ This project is a **Themed Blog Listing Application** built with **React, TypeSc
 
 ### Steps
 
-1.  git clone https://github.com/your-username/themed-blog-app.gitcd themed-blog-app
+1.  git clone https://github.com/your-username/blog\_app.gitcd themed-blog-app
 2.  npm install # or yarn install
 3.  npm run dev # or yarn dev
 4.  npm run build # or yarn build
@@ -65,7 +72,7 @@ This project is a **Themed Blog Listing Application** built with **React, TypeSc
 
 ## Folder Structure
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`  .  ├── src/  │   ├── components/        # UI Components  │   ├── pages/             # Page Components  │   ├── redux/             # Redux Store, Slices  │   ├── styles/            # Global CSS  │   ├── App.tsx            # Main App Component  │   ├── main.tsx           # Entry Point  ├── public/                # Static Assets  ├── .github/workflows/     # CI/CD Pipeline  ├── README.md              # Project Documentation  ├── package.json           # Dependencies & Scripts  ├── tsconfig.json          # TypeScript Config  └── vercel.json            # Vercel Config  `
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`.    ├── src/    │   ├── components/        # UI Components    │   ├── pages/             # Page Components    │   ├── redux/             # Redux Store, Slices    │   ├── styles/            # Global CSS    │   ├── App.tsx            # Main App Component    │   ├── main.tsx           # Entry Point    ├── public/                # Static Assets    ├── .github/workflows/     # CI/CD Pipeline    ├── README.md              # Project Documentation    ├── package.json           # Dependencies & Scripts    ├── tsconfig.json          # TypeScript Config    └── vercel.json            # Vercel Config`
 
 ## Challenges & Solutions
 
@@ -86,13 +93,7 @@ Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQL
 
 ## Technologies Used
 
-TechPurposeReactFrontend FrameworkTypeScriptType SafetyRedux ToolkitState ManagementRedux ThunkAsync State HandlingRedux PersistState PersistenceTailwind CSSStyling & Responsive UIReact RouterRoutingJSONPlaceholderMock APIVercelHostingGitHub ActionsCI/CD Pipeline
-
-## Future Enhancements
-
-- **Improve UI/UX** with animations
-- **Add pagination** for blog listing
-- **Implement Unit Tests** with Jest
+TechPurpose**React**Frontend Framework**TypeScript**Type Safety**Redux Toolkit**State Management**Redux Thunk**Async State Handling**Redux Persist**State Persistence**Tailwind CSS**Styling & Responsive UI**React Router**Routing**JSONPlaceholder**Mock API**Vercel**Hosting**GitHub Actions**CI/CD Pipeline
 
 ## Live Demo
 
