@@ -52,7 +52,7 @@ This project is a **Themed Blog Listing Application** built with **React, TypeSc
 
 ### Steps
 
-1.  git clone https://github.com/your-username/blog\_app.gitcd themed-blog-app
+1.  git clone https://github.com/your-username/blog_app.gitcd themed-blog-app
 2.  npm install # or yarn install
 3.  npm run dev # or yarn dev
 4.  npm run build # or yarn build
@@ -69,10 +69,6 @@ This project is a **Themed Blog Listing Application** built with **React, TypeSc
 
 - The project includes a GitHub Actions workflow that triggers on **push to the main branch**.
 - Deployment is automated to **Vercel**.
-
-## Folder Structure
-
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`.    ├── src/    │   ├── components/        # UI Components    │   ├── pages/             # Page Components    │   ├── redux/             # Redux Store, Slices    │   ├── styles/            # Global CSS    │   ├── App.tsx            # Main App Component    │   ├── main.tsx           # Entry Point    ├── public/                # Static Assets    ├── .github/workflows/     # CI/CD Pipeline    ├── README.md              # Project Documentation    ├── package.json           # Dependencies & Scripts    ├── tsconfig.json          # TypeScript Config    └── vercel.json            # Vercel Config`
 
 ## Challenges & Solutions
 
@@ -97,7 +93,7 @@ TechPurpose**React**Frontend Framework**TypeScript**Type Safety**Redux Toolkit**
 
 ## Live Demo
 
-🔗 [**View Live App**](https://your-app.vercel.app/)
+🔗 [**View Live App**](https://blog-1hyps2tcl-imrans-projects-1153baf0.vercel.app/)
 
 ## Contributing
 
