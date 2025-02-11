@@ -52,7 +52,7 @@ This project is a **Themed Blog Listing Application** built with **React, TypeSc
 
 ### Steps
 
-1.  git clone https://github.com/your-username/blog_app.gitcd themed-blog-app
+1.  git clone https://github.com/imransid/blog_app.git themed-blog-app
 2.  npm install # or yarn install
 3.  npm run dev # or yarn dev
 4.  npm run build # or yarn build
