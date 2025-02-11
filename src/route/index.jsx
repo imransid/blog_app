@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { toggleTheme } from "./redux/slices/themeSlice";
+import { toggleTheme } from "../redux/slices/themeSlice";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import BlogList from "./components/BlogList";
-import BlogDetail from "./components/BlogDetail";
+import BlogList from "../pages/homePage";
+import BlogDetail from "../pages/detailsPage";
 
 const Nav = () => {
   const dispatch = useDispatch();
@@ -12,8 +12,6 @@ const Nav = () => {
   useEffect(() => {
     document.body.className = theme;
   }, [theme]);
-
-  console.log("ok >>");
 
   return (
     <Router>

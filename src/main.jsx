@@ -3,9 +3,11 @@ import "./index.css";
 import React from "react";
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
-import Nav from "./Nav";
+import Nav from "./route";
 import "./index.css";
 import { store, persistor } from "./redux/store";
+
+console.log("ok");
 
 createRoot(document.getElementById("root")).render(
   <Provider store={store}>
